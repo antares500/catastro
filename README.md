@@ -23,6 +23,16 @@ Para más información puedes revisar la [documentacion oficial del catastro](ht
 - **CPMRC**: (ConsultaProvinciaMunicipioReferenciaCatastral) Obtiene las coordenadas de una parcela a partir de su referencia catastral
 - **GET_GEOJSON_3D**: Obtencion deel geoJSON para construir el modelo 3D
 
+## demo
+```php
+$catastro = new Catastro();
+
+$provincias = $catastro->Provincia();
+print_r($provincias);
+
+
+```
+
 ## License
 
 Apache License 2.0
